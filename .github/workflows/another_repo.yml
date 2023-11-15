@@ -7,12 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
-      with:
-        repository: chaudharyvikash/Automation
-      
+      uses: actions/checkout@v3
+            
     - name: Check out Github-Action-Demo project
-      uses: actions/checkout@v1
+      uses: actions/checkout@v3
       with:
         repository: chaudharyvikash/Github-Action-Demo
         token: ${{ secrets.PAT_TOKEN }}
