@@ -9,7 +9,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
       with:
-        Default: ${{ github.repository }}
+        repository: chaudharyvikash/Automation
       
     - name: Check out Github-Action-Demo project
       uses: actions/checkout@v3
