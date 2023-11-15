@@ -1,4 +1,4 @@
-name: Push File
+name: Push File to other repo
 
 on: push
 
@@ -17,5 +17,6 @@ jobs:
         source_file: 'sysinfo.py'
         destination_repo: 'chaudharyvikash/Github-Action-Demo'
         destination_folder: 'test'
+        user_email: 'chaudharyvikash2012@gmail.com'
         user_name: 'chaudharyvikash'
         commit_message: 'A custom message for the commit'
